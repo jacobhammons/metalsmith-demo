@@ -29,6 +29,13 @@
 <body>
 
     <div id="wrapper">
+<p>Added in version: {{ added_in_version }}</p>
+        <ul>
+            {% for each tag tags %}
+           <li> {{ tag }} </li>
+
+        </ul>
+
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
